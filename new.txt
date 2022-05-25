@@ -1,3 +1,7 @@
 bob 
 Jim
+<<<<<<< HEAD
 
+=======
+Mary
+>>>>>>> 54b500c788086bb9c48612d8a2d4e6ae32cab710
