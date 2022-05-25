@@ -1,8 +1,29 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("fonts/PlayfairDisplay/static/PlayfairDisplay-Bold.ttf");
+    font-weight: 900;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 h1 {
-color: red;}
-p  { color: grey;
-font-size: 24px;
+     color: rgb(226, 75, 75);
+     font-family: "PlayfairDisplay";
+    text-align: center;}
+#bioheader {color: brown;}
+#skillsheader {color: rgb(54, 7, 7);}
+   h3 {font-family: "PlayfairDisplay" }
+
+p  { color: rgb(240, 73, 73);
+     font-size: 24px;
+     font-family: "Oswald-light";
+     text-align: justify;
+     text-transform: none;
+     line-height: normal;
+     font-weight: 500;
+     
 }
 img {
-    width: 824px;
+    width: normal;
     }
