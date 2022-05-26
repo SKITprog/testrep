@@ -15,15 +15,21 @@ h1 {
 #skillsheader {color: rgb(54, 7, 7);}
    h3 {font-family: "PlayfairDisplay" }
 
-p  { color: rgb(240, 73, 73);
+.content  { color: rgb(240, 73, 73);
      font-size: 24px;
      font-family: "Oswald-light";
      text-align: justify;
      text-transform: none;
      line-height: normal;
      font-weight: 500;
+     border-top: 15px;
      
 }
+.bold {font-weight: bold;}
+.img-div {background-color: lightcoral;}
 img {
-    width: normal;
+    width: 30%;
+    margin: 10px 2px 30px 0;
+    box-shadow: 3px 3px blue;
     }
+    #img-1 {position: relative top 10px left 20px
