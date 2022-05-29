@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+<div>
+<label for="name">Név: *</label>
+<input type="text" name="name" id="name" required>
+</div>
+<div>
+    <label for="email">E-mail-cím: *</label>
+    <input type="email" name="email" id="email" required>
+</div>
+<div>
+    <label for="address"> Cím: *</label>
+    <input type="address" name="address" id="address">
+</div>
+<div>
+    <label for="comment">Megjegyzés:</label>
+    <textarea name="comment" id="comment" rows="5"></textarea>
+</div></fieldset>
+<fieldset>
+    <legend>Termék adatai</legend>
+<span> Extra feltét </span>
+<div><input type="radio" name="extra" id="none">
+<label for="none">Nem kérek</label></div>
+<div>
+    <input id="cheese" type="radio" name="extra">
+    <label for="cheese">Sajt</label>
+</div>
+<div>
+    <input type="radio" name="extra" id="ham">
+    <label for="ham">Sonka</label>
+</div>
+<div>
+    <input type="radio" name="extra" id="tomato">
+    <label for="tomato">Pari</label>
+</div>
+</fieldset>
+</form>
+</body>
+</html>
