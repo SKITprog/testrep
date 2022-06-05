@@ -18,3 +18,5 @@ amountNumber = isNaN(amountNumber) ? 0 : amountNumber;
 
 
 }
+// Nevek
+let numberOfProducts;
