@@ -21,3 +21,29 @@ let amount = amountNumber * price;
 showAmount.innerHTML = amount;
 }
 }
+
+// Űrlap események.
+let orderForm = document.querySelector("#orderForm");
+orderForm.addEventListener("submit", function(ev) { ev.preventDefault(); 
+    console.log( this);
+});
+
+
+// Select elem kitöltése
+let toppings = [
+"Szalonna",
+"Hagyma",
+"Tükörtojás",
+"Paradicsom",
+"Szósz"
+];
+let toppingSelect = document.querySelector('#topInput');
+let index = 0;
+while(index < toppings.length) { 
+    let option = document.createElement("option");
+    option.value = index;
+    option.innerHTML = toppings[index];
+    toppingSelect.appendChild(option);
+    index++;
+
+}
